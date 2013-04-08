@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C61A2B1711D39A00B4BC07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C61A2A1711D39A00B4BC07 /* UIKit.framework */; };
+		01C61A2D1711D39A00B4BC07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C61A2C1711D39A00B4BC07 /* Foundation.framework */; };
+		01C61A2F1711D39A00B4BC07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C61A2E1711D39A00B4BC07 /* CoreGraphics.framework */; };
+		01C61A351711D39A00B4BC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01C61A331711D39A00B4BC07 /* InfoPlist.strings */; };
+		01C61A371711D39A00B4BC07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C61A361711D39A00B4BC07 /* main.m */; };
+		01C61A3B1711D39A00B4BC07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C61A3A1711D39A00B4BC07 /* AppDelegate.m */; };
+		01C61A3E1711D39A00B4BC07 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C61A3C1711D39A00B4BC07 /* MainStoryboard.storyboard */; };
+		01C61A411711D39A00B4BC07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C61A401711D39A00B4BC07 /* ViewController.m */; };
+		01C61A491711D39A00B4BC07 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C61A481711D39A00B4BC07 /* SenTestingKit.framework */; };
+		01C61A4A1711D39A00B4BC07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C61A2A1711D39A00B4BC07 /* UIKit.framework */; };
+		01C61A4B1711D39A00B4BC07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C61A2C1711D39A00B4BC07 /* Foundation.framework */; };
+		01C61A531711D39A00B4BC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01C61A511711D39A00B4BC07 /* InfoPlist.strings */; };
+		01C61A561711D39A00B4BC07 /* YawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C61A551711D39A00B4BC07 /* YawTests.m */; };
+		01DB5EF3171210F900D9C0A2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DB5EF2171210F900D9C0A2 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01C61A4C1711D39A00B4BC07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01C61A1D1711D39900B4BC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C61A251711D39A00B4BC07;
+			remoteInfo = Yaw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C61A261711D39A00B4BC07 /* Yaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C61A2A1711D39A00B4BC07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01C61A2C1711D39A00B4BC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01C61A2E1711D39A00B4BC07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01C61A321711D39A00B4BC07 /* Yaw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yaw-Info.plist"; sourceTree = "<group>"; };
+		01C61A341711D39A00B4BC07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01C61A361711D39A00B4BC07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01C61A381711D39A00B4BC07 /* Yaw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yaw-Prefix.pch"; sourceTree = "<group>"; };
+		01C61A391711D39A00B4BC07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01C61A3A1711D39A00B4BC07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01C61A3D1711D39A00B4BC07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		01C61A3F1711D39A00B4BC07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01C61A401711D39A00B4BC07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01C61A471711D39A00B4BC07 /* YawTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YawTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C61A481711D39A00B4BC07 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		01C61A501711D39A00B4BC07 /* YawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YawTests-Info.plist"; sourceTree = "<group>"; };
+		01C61A521711D39A00B4BC07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01C61A541711D39A00B4BC07 /* YawTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YawTests.h; sourceTree = "<group>"; };
+		01C61A551711D39A00B4BC07 /* YawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YawTests.m; sourceTree = "<group>"; };
+		01DB5EF2171210F900D9C0A2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01C61A231711D39A00B4BC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DB5EF3171210F900D9C0A2 /* CoreMotion.framework in Frameworks */,
+				01C61A2B1711D39A00B4BC07 /* UIKit.framework in Frameworks */,
+				01C61A2D1711D39A00B4BC07 /* Foundation.framework in Frameworks */,
+				01C61A2F1711D39A00B4BC07 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C61A431711D39A00B4BC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C61A491711D39A00B4BC07 /* SenTestingKit.framework in Frameworks */,
+				01C61A4A1711D39A00B4BC07 /* UIKit.framework in Frameworks */,
+				01C61A4B1711D39A00B4BC07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C61A1B1711D39900B4BC07 = {
+			isa = PBXGroup;
+			children = (
+				01DB5EF2171210F900D9C0A2 /* CoreMotion.framework */,
+				01C61A301711D39A00B4BC07 /* Yaw */,
+				01C61A4E1711D39A00B4BC07 /* YawTests */,
+				01C61A291711D39A00B4BC07 /* Frameworks */,
+				01C61A271711D39A00B4BC07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01C61A271711D39A00B4BC07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01C61A261711D39A00B4BC07 /* Yaw.app */,
+				01C61A471711D39A00B4BC07 /* YawTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01C61A291711D39A00B4BC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01C61A2A1711D39A00B4BC07 /* UIKit.framework */,
+				01C61A2C1711D39A00B4BC07 /* Foundation.framework */,
+				01C61A2E1711D39A00B4BC07 /* CoreGraphics.framework */,
+				01C61A481711D39A00B4BC07 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01C61A301711D39A00B4BC07 /* Yaw */ = {
+			isa = PBXGroup;
+			children = (
+				01C61A391711D39A00B4BC07 /* AppDelegate.h */,
+				01C61A3A1711D39A00B4BC07 /* AppDelegate.m */,
+				01C61A3C1711D39A00B4BC07 /* MainStoryboard.storyboard */,
+				01C61A3F1711D39A00B4BC07 /* ViewController.h */,
+				01C61A401711D39A00B4BC07 /* ViewController.m */,
+				01C61A311711D39A00B4BC07 /* Supporting Files */,
+			);
+			path = Yaw;
+			sourceTree = "<group>";
+		};
+		01C61A311711D39A00B4BC07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01C61A321711D39A00B4BC07 /* Yaw-Info.plist */,
+				01C61A331711D39A00B4BC07 /* InfoPlist.strings */,
+				01C61A361711D39A00B4BC07 /* main.m */,
+				01C61A381711D39A00B4BC07 /* Yaw-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01C61A4E1711D39A00B4BC07 /* YawTests */ = {
+			isa = PBXGroup;
+			children = (
+				01C61A541711D39A00B4BC07 /* YawTests.h */,
+				01C61A551711D39A00B4BC07 /* YawTests.m */,
+				01C61A4F1711D39A00B4BC07 /* Supporting Files */,
+			);
+			path = YawTests;
+			sourceTree = "<group>";
+		};
+		01C61A4F1711D39A00B4BC07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01C61A501711D39A00B4BC07 /* YawTests-Info.plist */,
+				01C61A511711D39A00B4BC07 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01C61A251711D39A00B4BC07 /* Yaw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C61A591711D39A00B4BC07 /* Build configuration list for PBXNativeTarget "Yaw" */;
+			buildPhases = (
+				01C61A221711D39A00B4BC07 /* Sources */,
+				01C61A231711D39A00B4BC07 /* Frameworks */,
+				01C61A241711D39A00B4BC07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yaw;
+			productName = Yaw;
+			productReference = 01C61A261711D39A00B4BC07 /* Yaw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01C61A461711D39A00B4BC07 /* YawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C61A5C1711D39A00B4BC07 /* Build configuration list for PBXNativeTarget "YawTests" */;
+			buildPhases = (
+				01C61A421711D39A00B4BC07 /* Sources */,
+				01C61A431711D39A00B4BC07 /* Frameworks */,
+				01C61A441711D39A00B4BC07 /* Resources */,
+				01C61A451711D39A00B4BC07 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01C61A4D1711D39A00B4BC07 /* PBXTargetDependency */,
+			);
+			name = YawTests;
+			productName = YawTests;
+			productReference = 01C61A471711D39A00B4BC07 /* YawTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01C61A1D1711D39900B4BC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 01C61A201711D39900B4BC07 /* Build configuration list for PBXProject "Yaw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01C61A1B1711D39900B4BC07;
+			productRefGroup = 01C61A271711D39A00B4BC07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01C61A251711D39A00B4BC07 /* Yaw */,
+				01C61A461711D39A00B4BC07 /* YawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01C61A241711D39A00B4BC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C61A351711D39A00B4BC07 /* InfoPlist.strings in Resources */,
+				01C61A3E1711D39A00B4BC07 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C61A441711D39A00B4BC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C61A531711D39A00B4BC07 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01C61A451711D39A00B4BC07 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01C61A221711D39A00B4BC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C61A371711D39A00B4BC07 /* main.m in Sources */,
+				01C61A3B1711D39A00B4BC07 /* AppDelegate.m in Sources */,
+				01C61A411711D39A00B4BC07 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C61A421711D39A00B4BC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C61A561711D39A00B4BC07 /* YawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01C61A4D1711D39A00B4BC07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01C61A251711D39A00B4BC07 /* Yaw */;
+			targetProxy = 01C61A4C1711D39A00B4BC07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01C61A331711D39A00B4BC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C61A341711D39A00B4BC07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01C61A3C1711D39A00B4BC07 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C61A3D1711D39A00B4BC07 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		01C61A511711D39A00B4BC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C61A521711D39A00B4BC07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01C61A571711D39A00B4BC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01C61A581711D39A00B4BC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01C61A5A1711D39A00B4BC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yaw/Yaw-Prefix.pch";
+				INFOPLIST_FILE = "Yaw/Yaw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01C61A5B1711D39A00B4BC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yaw/Yaw-Prefix.pch";
+				INFOPLIST_FILE = "Yaw/Yaw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		01C61A5D1711D39A00B4BC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yaw.app/Yaw";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yaw/Yaw-Prefix.pch";
+				INFOPLIST_FILE = "YawTests/YawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		01C61A5E1711D39A00B4BC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yaw.app/Yaw";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yaw/Yaw-Prefix.pch";
+				INFOPLIST_FILE = "YawTests/YawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01C61A201711D39900B4BC07 /* Build configuration list for PBXProject "Yaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C61A571711D39A00B4BC07 /* Debug */,
+				01C61A581711D39A00B4BC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01C61A591711D39A00B4BC07 /* Build configuration list for PBXNativeTarget "Yaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C61A5A1711D39A00B4BC07 /* Debug */,
+				01C61A5B1711D39A00B4BC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01C61A5C1711D39A00B4BC07 /* Build configuration list for PBXNativeTarget "YawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C61A5D1711D39A00B4BC07 /* Debug */,
+				01C61A5E1711D39A00B4BC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01C61A1D1711D39900B4BC07 /* Project object */;
+}

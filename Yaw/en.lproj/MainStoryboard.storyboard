@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="10K549" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="IzJ-pw-5yo">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="sfa-ap-yqf">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FSS-jf-n3f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="9dj-Vf-Nhv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="za5-nV-BBD">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Yaw" lineBreakMode="tailTruncation" minimumFontSize="10" id="iEW-Pq-cMa">
+                                <rect key="frame" x="41" y="101" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0.0" lineBreakMode="tailTruncation" minimumFontSize="10" id="1Uy-7D-Czz">
+                                <rect key="frame" x="122" y="101" width="150" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="MIQ-g5-CNB">
+                                <rect key="frame" x="120" y="136" width="175" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="oer-dJ-Uax"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="967" y="-589"/>
+        </scene>
+        <scene sceneID="TfG-pQ-DTJ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6An-7i-oZU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="IzJ-pw-5yo" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="AEk-cq-FJa">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9dj-Vf-Nhv" kind="relationship" relationship="rootViewController" id="mQa-df-jz2"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="439" y="-589"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
